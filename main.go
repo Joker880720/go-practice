@@ -13,6 +13,8 @@ func main(){
 	fmt.Println("please input index you want to delete:")
 	fmt.Scanf("%d",&a)
 	fmt.Println(tool.SliceDelete(a))
+	shape := tool.Shape{ShapeName: "rectangle"}
+	fmt.Println(shape.ShapeDisplay())
 
 
 	var slice = make([] int, 5,10)//長度為5，空間為10
